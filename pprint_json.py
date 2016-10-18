@@ -1,6 +1,7 @@
 import json
 from pprint import pprint
 
+
 def load_data(filepath):
     with open(filepath) as json_file:
         bars = json.load(json_file)
